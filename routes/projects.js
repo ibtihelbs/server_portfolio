@@ -10,5 +10,12 @@ router.get("/", async (req, res) => {
     res.status(500).json({ message: "Internal Server Error" });
   }
 });
-
+router.get("/find/:id", async (req, res) => {
+  try {
+    const projectById = await project.findById(req.params.id);
+    res.status(201).json(projectById);
+  } catch (error) {
+    res.status(500).json(error);
+  }
+});
 module.exports = router;

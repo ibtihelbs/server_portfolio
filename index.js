@@ -6,7 +6,11 @@ const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const projectRoute = require("./routes/projects");
 
-app.use(cors());
+app.use(
+  cors({
+    origin: ["http://localhost:3000", "https://ibtihelbensalah.vercel.app"],
+  })
+);
 
 dotenv.config();
 mongoose
