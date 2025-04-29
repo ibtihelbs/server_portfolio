@@ -11,7 +11,7 @@ app.use(
     origin: ["http://localhost:3000", "https://ibtihelbensalah.vercel.app"],
   })
 );
-
+/*llo*/
 dotenv.config();
 mongoose
   .connect(process.env.SECRET_MONGO)

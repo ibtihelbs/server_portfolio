@@ -13,6 +13,7 @@ const projectSchema = new mongoose.Schema({
   technologies: { type: TechnologiesSchema, required: true },
   contributions: { type: String, required: true },
   exploreLink: { type: String, required: true },
+  codeLink: { type: String, required: true },
 });
 
 const ProjectModel = mongoose.model("Project", projectSchema);

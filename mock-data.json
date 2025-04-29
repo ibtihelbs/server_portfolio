@@ -1,39 +1,95 @@
 [
   {
-    "id": 1,
-    "name": "Project 1",
-    "image": "/portfolio/8.jpg",
-    "description": "A brief overview of Project 1, highlighting its purpose, features, and your role in its development.",
+    "id": 0,
+    "name": "Open-Source Contribution: Spinning Text Component",
+    "image": "/portfolio/textspinner.gif",
+    "description": "Contributed to the Motion Primitives open-source animation library by creating a customizable spinning text component.",
     "technologies": {
-      "frontend": ["Technology 1", "Technology 2"],
-      "backend": ["Technology 3", "Technology 4"]
+      "frontend": ["React.js", "Framer Motion", "TypeScript", "tailwindcss"]
     },
-    "contributions": "Describe your key contributions or responsibilities in Project 1. Highlight any challenges overcome or unique solutions implemented.",
-    "exploreLink": "URL-to-explore-Project-1"
+    "contributions": "Designed a reusable spinning text component with options for customization. Added documentation and examples to facilitate easy adoption by other developers.",
+    "exploreLink": "https://github.com/ibelick/motion-primitives",
+    "codeLink": "https://github.com/ibelick/motion-primitives/pull/33"
+  },
+  {
+    "id": 1,
+    "name": "UI for Online E-Shop",
+    "image": "/portfolio/6.png",
+    "description": "Designed a sleek and responsive user interface for an online e-shop, elevating the shopping experience with modern aesthetics and smooth interactions.",
+    "technologies": {
+      "frontend": ["React.js", "Redux", "TailwindCSS", "Framer Motion"],
+      "backend": ["JSON"]
+    },
+    "contributions": "Created an engaging UI from scratch, including reusable React components and responsive layouts. Implemented animations using Framer Motion to enhance interactivity.",
+    "exploreLink": "https://bakeryshop-peach.vercel.app",
+    "codeLink": "https://github.com/ibtihelbs/bakeryshop"
   },
   {
     "id": 2,
-    "name": "Project 2",
-    "image": "/portfolio/7.png",
-
-    "description": "A brief overview of Project 2, highlighting its purpose, features, and your role in its development.",
+    "name": "E-commerce Project (MERN Stack)",
+    "image": "/portfolio/1.png",
+    "description": "Developed a comprehensive e-commerce platform with a focus on branding, copywriting, and a full-stack admin dashboard.",
     "technologies": {
-      "frontend": ["Technology A", "Technology B"],
-      "backend": ["Technology C", "Technology D"]
+      "frontend": ["React.js", "Redux", "styled-components"],
+      "backend": ["MongoDB", "Express.js", "Node.js"]
     },
-    "contributions": "Describe your key contributions or responsibilities in Project 2. Highlight any challenges overcome or unique solutions implemented.",
-    "exploreLink": "URL-to-explore-Project-2"
+    "contributions": "Led the entire project lifecycle, including design, development, and branding. Built a responsive user interface and a fully functional admin dashboard using the MERN stack.",
+    "exploreLink": "https://polarized-store.onrender.com",
+    "codeLink": "https://github.com/ibtihelbs/POLARIZED/"
   },
   {
     "id": 3,
-    "name": "Project 3",
-    "image": "/portfolio/3.png",
-    "description": "A brief overview of Project 3, highlighting its purpose, features, and your role in its development.",
+    "name": "Full-stack Dashboard in Next.js",
+    "image": "/portfolio/2.png",
+    "description": "Built a full-stack dashboard application using Next.js, incorporating TypeScript for strong typing and PostgreSQL for backend data management.",
     "technologies": {
-      "frontend": ["Technology X", "Technology Y"],
-      "backend": ["Technology Z"]
+      "frontend": ["Next.js", "TypeScript"],
+      "backend": ["PostgreSQL", "NextAuth"]
     },
-    "contributions": "Describe your key contributions or responsibilities in Project 3. Highlight any challenges overcome or unique solutions implemented.",
-    "exploreLink": "URL-to-explore-Project-3"
+    "contributions": "Implemented secure authentication with NextAuth and developed a dynamic, responsive UI. Leveraged TypeScript to ensure code quality and maintainability.",
+    "exploreLink": "https://next-dashboard-admin-4ckd5d64n-ibtihelbs.vercel.app",
+    "codeLink": "https://github.com/ibtihelbs/next-dashboard"
+  },
+  {
+    "id": 4,
+    "name": "Countries API Explorer",
+    "image": "/portfolio/3.png",
+    "description": "Created a web application that allows users to search and explore country data using the REST Countries API.",
+    "technologies": {
+      "frontend": ["React.js"],
+      "backend": ["Fetch API"]
+    },
+    "contributions": "Implemented search, filter, and detailed view functionalities for countries. Enhanced user experience with a clean and accessible design.",
+    "exploreLink": "https://reactapicountries.vercel.app",
+    "codeLink": "https://github.com/ibtihelbs/reactapicountries"
+  },
+  {
+    "id": 5,
+    "name": "Calculator App with Theme Switcher",
+    "image": "/portfolio/4.png",
+    "description": "Built a fully functional calculator app with a theme switcher, offering users the ability to perform basic operations and toggle between themes.",
+    "technologies": {
+      "frontend": ["Vanilla JavaScript (ES6)", "CSS Grid", "HTML5"]
+    },
+    "contributions": "Developed the calculator logic and UI using ES6 JavaScript. Designed the layout with CSS Grid and added a theme-switching feature for user customization.",
+    "exploreLink": "https://ibtihelbs.github.io/calculator-themeswitcher/",
+    "codeLink": "https://github.com/ibtihelbs/calculator-themeswitcher"
+  },
+  {
+    "id": 6,
+    "name": "E-commerce Product Details",
+    "image": "/portfolio/5.png",
+    "description": "Developed a product detail page for an e-commerce platform, featuring a lightbox gallery and a cart functionality.",
+    "technologies": {
+      "frontend": [
+        "Vanilla JavaScript (ES6/ES8)",
+        "CSS Grid",
+        "CSS Flexbox",
+        "HTML5"
+      ]
+    },
+    "contributions": "Implemented real-time cart updates, a responsive lightbox gallery, and detailed product information display.",
+    "exploreLink": "https://ibtihelbs.github.io/ecommerce-products-detail/",
+    "codeLink": "https://github.com/ibtihelbs/ecommerce-products-detail"
   }
 ]
